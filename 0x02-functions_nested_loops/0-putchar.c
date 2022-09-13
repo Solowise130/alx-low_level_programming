@@ -1,4 +1,4 @@
-#include "main.h"
+#include 'main.h'
 
 /**
  * main - Prints putchar
@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-_putchar("_");
-_putchar("P");
-_putchar("u");
-_putchar("t");
-_putchar("c");
-_putchar("h");
-_putchar("a"); 
-_putchar("r");
+_putchar('');
+_putchar('P');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a'); 
+_putchar('r);
 
 return (0);
 }
