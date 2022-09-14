@@ -3,7 +3,6 @@
 
 
 /**
- *
  * _isalpha - Return 1 if c is a letter. lowercase or uppercase
  *
  * @c: The int to print
@@ -15,7 +14,6 @@
 
 
 int _isalpha(int c)
-
 
 
 {
