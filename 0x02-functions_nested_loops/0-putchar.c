@@ -3,8 +3,7 @@
 
 
 /**
- *
- *  *main - print out main car by char.
+ *main - print out main car by char.
  *
  *   *Description: uses the main header file
  *
@@ -12,7 +11,7 @@
  *
  *     *Return: 0.
  *
- *      */
+ */
 
 
 
