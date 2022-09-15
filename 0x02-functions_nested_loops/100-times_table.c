@@ -48,7 +48,6 @@ void print_nums(int num)
 		_putchar(' ');
 
 		_putchar(x);
-
 		_putchar(y);
 
 	}
@@ -56,15 +55,10 @@ void print_nums(int num)
 	else
 
 	{
-
 		_putchar(' ');
-
 		_putchar(' ');
-
 		_putchar(' ');
-
 		_putchar(num + '0');
-
 	}
 
 }
@@ -103,25 +97,14 @@ void print_times_table(int n)
 				if (j == 0)
 
 					_putchar('0');
-
 				else
 
 					print_nums(num);
-
-
-
 				if (j < n)
-
 					_putchar(',');
-
 				else
-
-					_putchar('\n');
-
+				_putchar('\n');
 			}
-
 		}
-
 	}
-
 }
