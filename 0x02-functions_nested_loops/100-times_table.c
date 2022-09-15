@@ -49,18 +49,14 @@ void print_nums(int num)
 
 		_putchar(x);
 		_putchar(y);
-
 	}
-
 	else
-
 	{
-		_putchar(' ');
+	        _putchar(' ');
 		_putchar(' ');
 		_putchar(' ');
 		_putchar(num + '0');
 	}
-
 }
 
 /**
@@ -76,23 +72,18 @@ void print_nums(int num)
 void print_times_table(int n)
 
 {
-
 	int i, j, num;
 
-
 	if (n >= 0 && n < 16)
-
 	{
-
 		for (i = 0; i <= n; ++i)
 
 		{
-
 			for (j = 0; j <= n; ++j)
 
 			{
 
-				num = i * j;
+			num = i * j;
 
 				if (j == 0)
 
@@ -103,7 +94,7 @@ void print_times_table(int n)
 				if (j < n)
 					_putchar(',');
 				else
-				_putchar('\n');
+                			_putchar('\n');
 			}
 		}
 	}
