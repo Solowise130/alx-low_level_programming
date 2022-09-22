@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - Add a line to this code
+ */
+
 int main(void)
 {
 iint n;
