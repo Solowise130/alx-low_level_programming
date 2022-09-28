@@ -30,11 +30,11 @@ int power_operation(int n, int c)
 
 int _sqrt(int n, int x)
 {
-	if (n > x /2)
+	if (n < 0)
 		return (-1);
-	else
-
-	if (n * n == x)
-		return (n);
-	return (_sqrt(n + 1, x))
+	if (n == 0)
+		return (0);
+	if (n == 1)
+		return (1);
+	return (power_operation(n, 2));
 }
