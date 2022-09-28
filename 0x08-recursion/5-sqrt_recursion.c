@@ -36,5 +36,5 @@ int _sqrt(int n, int x)
 		return (0);
 	if (n == 1)
 		return (1);
-	return (power_operation(n, 2));
+	return (power_operation(n, 2))
 }
