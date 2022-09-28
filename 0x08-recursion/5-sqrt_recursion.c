@@ -4,6 +4,7 @@
  * _sqrt_recursion - returns the natural square root of a number.
  * power_operation - returns the natural square root of a number.
  * @n: number to be used
+ * @c: Number to return
  *
  * Return: the square root of n
  */
