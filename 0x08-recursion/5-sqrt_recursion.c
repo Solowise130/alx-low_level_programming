@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - returns the natural square root of a number.
+ * power_operation - returns the natural square root of a number.
  * @n: number to be used
  *
  * Return: the square root of n
@@ -27,13 +28,13 @@ int power_operation(int n, int c)
  * Return: return the square root of n
  */
 
-int _sqrt_recursion(int n)
+int _sqrt(int n, int x)
 {
-	if (n < 0)
+	if (n > x /2)
 		return (-1);
-	if (n == 0)
-		return (0);
-	if (n == 1)
-		return (1);
-	return (power_operation(n, 2));
+	else
+
+	if (n * n == x)
+		return (n);
+	return (_sqrt(n + 1, x))
 }
