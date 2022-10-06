@@ -32,7 +32,7 @@ void _is_zero(char *argv[])
 	if (isn1 == 1 || isn2 == 1)
 	{
 		printf("0\n");
-exit(0);
+		exit(0);
 	}
 }
 
@@ -70,7 +70,7 @@ int _checknum(char *argv[], int n)
 		if (!isdigit(argv[n][ln]))
 		{
 			printf("Error\n");
-exit(98);
+			exit(98);
 		}
 
 	return (ln);
