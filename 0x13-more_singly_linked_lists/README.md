@@ -52,4 +52,4 @@ This project is focused on the application of "singly linked lists in C-Programm
 14 - Writes a function that finds the loop in a linked list.
 * Returns: The address of the node where the loop starts, or NULL if there is no loop.
 
-The prototypes of the all the functions are included in the header file called "lists.h".
+The prototypes of the entire functions are included in the header file called "lists.h".
