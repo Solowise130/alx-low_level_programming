@@ -26,6 +26,6 @@ The programes are executed thus;
 6 - Writes a function that checks the endianness.
 * Returns: 0 if big endian, 1 if little endian.
 
-7 - Finds the password for this program.
+7 - Finds the password of a given program.
 * Save the password in the file 101-password.
 * The file should contains the exact password, no new line, no extra space.
