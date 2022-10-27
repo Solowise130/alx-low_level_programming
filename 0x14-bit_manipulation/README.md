@@ -1,4 +1,5 @@
 This project encapsulates Bit manipulation and the application of bitwise operators in C programming.
+The prototypes of the entire fuctions are stored in the main.h file.
 The programes are executed thus;
 
 0 - Writes a function that converts a binary number to an unsigned int.
